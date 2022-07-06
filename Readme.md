@@ -16,4 +16,6 @@ python jetsonInfo.py
 pkg-config --modversion opencv
 pkg-config --modversion opencv3
 pkg-config --modversion opencv4
+
 ```
+![Screenshot from 2022-07-06 16-08-53](https://user-images.githubusercontent.com/88171531/177490683-f1070dad-716c-449c-af0e-d1aae0ade746.png)
