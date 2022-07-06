@@ -1,1 +1,6 @@
-https://dnddnjs.gitbooks.io/drone-autonomous-flight/content/software_in_the_loopsitl.html
+Jetson Xavier AGX
+Jetpack 4.6.2
+Cuda 10.2
+openCV 4.1->3.4
+ROS-melodic
+darknet-ROS
