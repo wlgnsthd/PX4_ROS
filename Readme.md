@@ -6,8 +6,12 @@ OpenCV 4.1->3.4
 ROS-melodic
 darknet-ROS
 ```
-# Check
+# Version Check
 ```
+# JetPack & CUDA
+git clone https://github.com/jetsonhacks/jetsonUtilities
+cd jetsonUtilities
+python jetsonInfo.py
 # OpenCV
 pkg-config --modversion opencv
 pkg-config --modversion opencv3
