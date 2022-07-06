@@ -6,3 +6,10 @@ OpenCV 4.1->3.4
 ROS-melodic
 darknet-ROS
 ```
+# Check
+```
+# OpenCV
+pkg-config --modversion opencv
+pkg-config --modversion opencv3
+pkg-config --modversion opencv4
+```
