@@ -98,15 +98,21 @@ sudo make install
 sudo sh -c 'echo '/usr/local/lib' > /etc/ld.so.conf.d/opencv.conf'
 sudo ldconfig
 ```
+## Install cv_bridge
+```
+cd catkin_ws/src
+git clone https://github.com/superjax/cv3_bridge
+
+```
 ## Yolo darknet ROS install
 ```
 cd catkin_ws/src
 git clone --recursive https://github.com/leggedrobotics/darknet_ros.git
 cd ../
-catkin_make -DKMAKE_BUILD_TYPE=Release
-# 빌드 완료후
 # darknet_ros/darknet/Makefile열어서 GPU,CUDNN, OPENCV = 1로, gencode arch=compute_72,code=sm_72\ gencode arch=compute_72,code=[sm_72,compute_72]| 변경
 # darknet_ros/darknet_ros/CMakeList.txt에서도 뒷부분 똑같이 수정
+catkin_make -DKMAKE_BUILD_TYPE=Release
+# 빌드 완료후
 # usb 카메라 설치
 sudo apt install ros-melodic-uvc-camera 
 
