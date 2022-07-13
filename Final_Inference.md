@@ -129,5 +129,5 @@ sudo apt install ros-melodic-uvc-camera
 rosrun uvc_camera uvc_camera_node
 roslaunch darknet_ros darknet_ros.launch # yolov2, v2 tiny 모델일때 
 roslaunch darknet_ros yolo_v3.launch # yolov3 모델일때
-# 안될경우 source /home/abc/catkin_ws/devel/setup.bash 후 재실시
+# 안될경우 source /home/###/catkin_ws/devel/setup.bash 후 재실시
 ```
