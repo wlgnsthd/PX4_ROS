@@ -102,6 +102,11 @@ sudo ldconfig
 ```
 cd catkin_ws/src
 git clone https://github.com/superjax/cv3_bridge
+#In src/darknet_ros/darknet_ros/CMakeLists.txt:
+#find the cv_bridge and replace with cv3_bridge
+#find the find_package(OpenCV REQUIRED) and change to find_package(OpenCV 3 REQUIRED)
+#find the target_link_libraries(${PROJECT_NAME} ... and add ${OpenCV_LIBRARIES} to the end of the list
+#package.xml에서 cv_brige를 cv3_bridge로 바꾸기
 
 ```
 ## Yolo darknet ROS install
