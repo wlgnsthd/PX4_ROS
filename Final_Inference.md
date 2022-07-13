@@ -98,8 +98,9 @@ sudo make install
 sudo sh -c 'echo '/usr/local/lib' > /etc/ld.so.conf.d/opencv.conf'
 sudo ldconfig
 ```
-## Install cv_bridge
+## Install cv3_bridge
 ```
+# do not apt install ros-melodic-cv-bridge
 cd catkin_ws/src
 git clone https://github.com/superjax/cv3_bridge
 #In src/darknet_ros/darknet_ros/CMakeLists.txt:
