@@ -99,6 +99,8 @@ sudo sh -c 'echo '/usr/local/lib' > /etc/ld.so.conf.d/opencv.conf'
 sudo ldconfig
 ```
 ## Install cv3_bridge 중요
+https://github.com/leggedrobotics/darknet_ros/issues/34
+
 ```
 # do not apt install ros-melodic-cv-bridge
 cd catkin_ws/src
