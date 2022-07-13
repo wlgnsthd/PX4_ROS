@@ -94,7 +94,7 @@ make -j$(nproc)
 ```
 ```
 sudo make install
-# 환경등록 
+# 환경변수등록 
 sudo sh -c 'echo '/usr/local/lib' > /etc/ld.so.conf.d/opencv.conf'
 sudo ldconfig
 ```
