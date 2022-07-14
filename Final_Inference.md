@@ -55,6 +55,15 @@ sudo find /usr/local/ -name "*opencv*" -exec rm {} \;
 # sudo rm -rf /usr/share/opencv4
 ```
 ## Install OpenCV3.4.0
+### with well known code
+```
+$ git clone https://github.com/jetsonhacks/buildOpenCVXavier.git
+$ cd buildOpenCVXavier
+$ git checkout v1.0
+$ ./buildOpenCV.sh
+```
+### with source code
+___________________________
 ```
 cd
 mkdir opencv
