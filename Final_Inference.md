@@ -50,6 +50,9 @@ sudo find /usr/local/ -name "*opencv*" -exec rm {} \;
 # 안지워진 폴더 삭제
 # sudo rm -rf /usr/local/include/opencv
 # sudo rm -rf /usr/local/include/opencv4
+# sudo rm -rf /usr/share/opencv
+# sudo rm -rf /usr/share/opencv2
+# sudo rm -rf /usr/share/opencv4
 ```
 ## Install OpenCV3.4.0
 ```
