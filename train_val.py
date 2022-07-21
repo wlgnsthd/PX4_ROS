@@ -1,0 +1,32 @@
+# python3
+import glob, os, shutil
+# put your own path here
+dataset_path = './'
+
+# Percentage of images to be used for the validation set
+percentage_val = 20;
+
+# Create and/or truncate train.txt and validation.txt
+file_train = open('train.txt', 'w')  
+file_val = open('valid.txt', 'w')
+
+# Make directory train/valid
+train_new_name = '/train_new'
+valid_new_name = '/valid_new'
+os.makedirs(dataset_path+train_new_name,exist_ok=True)
+os.makedirs(dataset_path+valid_new_name,exist_ok=True)
+
+# Populate train.txt and validation.txt
+counter = 1  
+index_val = round(100 / percentage_val)  
+for pathAndFilename in glob.iglob(os.path.join(dataset_path, "*.jpg")):  
+    title, ext = os.path.splitext(os.path.basename(pathAndFilename))
+
+    if counter == index_val+1:#valid
+        counter = 1
+        file_val.write('/home/dhkim/DATA/main_parcel_jhs/valid'+ '/'  + title + '.jpg' + "\n")
+        shutil.copy(dataset_path  + title + '.jpg', dataset_path + valid_new_name  )
+    else:# train
+        file_train.write('/home/dhkim/DATA/main_parcel_jhs/train'+ '/'+ title + '.jpg' + "\n")
+        shutil.copy(dataset_path  + title + '.jpg', dataset_path + train_new_name  )
+        counter = counter + 1
