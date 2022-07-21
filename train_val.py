@@ -26,7 +26,10 @@ for pathAndFilename in glob.iglob(os.path.join(dataset_path, "*.jpg")):
         counter = 1
         file_val.write('/home/dhkim/DATA/main_parcel_jhs/valid'+ '/'  + title + '.jpg' + "\n")
         shutil.copy(dataset_path  + title + '.jpg', dataset_path + valid_new_name  )
+        shutil.copy(dataset_path  + title + '.txt', dataset_path + valid_new_name  )
+
     else:# train
         file_train.write('/home/dhkim/DATA/main_parcel_jhs/train'+ '/'+ title + '.jpg' + "\n")
         shutil.copy(dataset_path  + title + '.jpg', dataset_path + train_new_name  )
+        shutil.copy(dataset_path  + title + '.txt', dataset_path + train_new_name  )
         counter = counter + 1
