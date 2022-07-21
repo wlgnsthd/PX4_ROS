@@ -1,4 +1,4 @@
-# Jetson Xavier AGX Yolov4 darknet ROS
+# Jetson Xavier AGX YoloV4 darknet ROS
 ```
 sudo apt-get update && sudo apt-get upgrade -y
 ```
