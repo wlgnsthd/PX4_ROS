@@ -9,6 +9,7 @@
 ### runfile로 시도했으나 여러 오류발생
 ### local file 다운로드 받아 11.0버전 설치
 ##### https://wooriel.tistory.com/53
+https://velog.io/@boom109/nvidia-driver-cuda-toolkit-cudnn-install
 #### vim /etc/bash.bashrc
 ##### 마지막 줄 아래 추가 (cuda path및 cuda library path를 지정)
 
