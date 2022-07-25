@@ -108,7 +108,7 @@ git clone https://github.com/superjax/cv3_bridge
 ## Yolo darknet ROS install
 ```
 cd catkin_ws/src
-git clone --recursive https://github.com/leggedrobotics/darknet_ros.git
+git clone --recursive https://github.com/Tossy0423/yolov4-for-darknet_ros.git
 cd ../
 # darknet_ros/darknet/Makefile열어서 GPU,CUDNN, OPENCV = 1로, gencode arch=compute_72,code=sm_72\ gencode arch=compute_72,code=[sm_72,compute_72]| 변경
 # darknet_ros/darknet_ros/CMakeList.txt에서도 뒷부분 똑같이 수정
