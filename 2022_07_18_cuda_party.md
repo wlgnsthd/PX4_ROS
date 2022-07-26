@@ -19,6 +19,7 @@ export PATH=/usr/local/cuda-11.0/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-11.0/lib64:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-11.0/extras/CUPTI/lib64:$LD_LIBRARY_PATH
 ################
+
 ```
 ```
  source /etc/bash.bashrc
@@ -28,3 +29,4 @@ export LD_LIBRARY_PATH=/usr/local/cuda-11.0/extras/CUPTI/lib64:$LD_LIBRARY_PATH
 ![화면 캡처 2022-07-19 085759](https://user-images.githubusercontent.com/88171531/179636373-09b5b0e4-faec-4bdb-877d-447b3dde08e7.png)
 ![화면 캡처 2022-07-19 101736](https://user-images.githubusercontent.com/88171531/179643186-a434b412-e5f5-4588-961a-e1a4797dea03.png)
 ### 11.1 cuda 설치.. (rtx30..은 450이상 지원)
+![화면 캡처 2022-07-26 153237](https://user-images.githubusercontent.com/88171531/180939148-65967e37-2084-4c75-8557-39f179322fda.png)
