@@ -7,11 +7,13 @@
 ### 신 버전 설치후 구 버전 설치가능
 #### https://developer.nvidia.com/cuda-11.0-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=2004&target_type=deblocal
 ### runfile로 시도했으나 여러 오류발생
+![화면 캡처 2022-07-27 100052](https://user-images.githubusercontent.com/88171531/181137960-b3094ca5-532f-489e-904f-ee16dd85af32.png)
 ### local file 다운로드 받아 11.0버전 설치
 ##### https://wooriel.tistory.com/53
 https://velog.io/@boom109/nvidia-driver-cuda-toolkit-cudnn-install
 #### vim /etc/bash.bashrc
 ##### 마지막 줄 아래 추가 (cuda path및 cuda library path를 지정)
+
 
 ```
 ##### ADD #####
