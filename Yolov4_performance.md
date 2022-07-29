@@ -5,7 +5,7 @@
 ### 2022_07_29 Yolov4 20000 batch
 ![Screenshot from 2022-07-29 11-18-41](https://user-images.githubusercontent.com/88171531/181669186-f76a15fb-269c-4fc7-a4ba-ef79fa37c94f.png)
 ![chart_custom_yolov4](https://user-images.githubusercontent.com/88171531/181669224-ded8226e-aeea-4d37-95cc-2306dd0c6be8.png)
-### 2022_07_29 Yolov4-tiny 20000 batch
+### 2022_07_29 Yolov4-tiny 19626 batch
 ![ltm_yolov4-tiny_19626_mAP](https://user-images.githubusercontent.com/88171531/181684848-134a9184-2969-4f08-8d78-b36d0828891b.png)
 
 ___________
