@@ -1,3 +1,7 @@
+#### MOVED TO
+https://github.com/wlgnsthd/Jetson_Xavier_AGX_Yolo_darknet_ros
+__________________________________
+_________________________________
 # Jetson Xavier AGX YoloV4 darknet ROS
 ```
 sudo apt-get update && sudo apt-get upgrade -y
