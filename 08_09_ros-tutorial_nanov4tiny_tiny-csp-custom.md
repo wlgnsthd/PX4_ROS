@@ -13,4 +13,5 @@ https://github.com/robotpilot/ros-seminar
 ![chart_yolov4-custom](https://user-images.githubusercontent.com/88171531/183559990-c15ffd1a-ca93-40f3-91e0-6a9f131440aa.png)
 
 
-##### CSP의 Learning Rate 크게 키워본다. 0.002
+##### CSP의 Learning Rate 크게 키워본다. 0.002 ->동일현상
+https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-csp.conv.142
