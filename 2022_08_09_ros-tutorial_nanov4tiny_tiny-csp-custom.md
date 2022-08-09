@@ -11,3 +11,6 @@ https://github.com/robotpilot/ros-seminar
 ![chart_yolov4-tiny](https://user-images.githubusercontent.com/88171531/183559977-800e6ffc-c42c-4e0f-8972-1479a87e0aee.png)
 ![chart_yolov4-csp](https://user-images.githubusercontent.com/88171531/183559984-5b808a7b-8bc4-498b-bde1-e718cfe8d65a.png)
 ![chart_yolov4-custom](https://user-images.githubusercontent.com/88171531/183559990-c15ffd1a-ca93-40f3-91e0-6a9f131440aa.png)
+
+
+##### CSP의 Learning Rate 크게 키워본다. 0.002
