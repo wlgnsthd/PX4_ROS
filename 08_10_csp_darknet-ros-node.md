@@ -7,3 +7,9 @@ https://github.com/WongKinYiu/ScaledYOLOv4/issues/13
 
 ## Darknet ROS _ ZED2 node
 ![topic](https://user-images.githubusercontent.com/88171531/183785263-3f2ea8dc-a3db-4c4a-becf-0d84903ec886.png)
+```
+roscore
+roslaunch zed_wrapper zed2.launch
+roslaunch darknet_ros yolo_v4.launch
+rostopic echo /darknet_ros/bounding_boxes
+```
