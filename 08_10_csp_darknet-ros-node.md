@@ -8,7 +8,7 @@ https://github.com/WongKinYiu/ScaledYOLOv4/issues/13
 ![화면 캡처 2022-08-10 135700](https://user-images.githubusercontent.com/88171531/183819168-b04f570a-a202-419b-b425-118a50bbdef4.png)
 ##### 2) yolov4x-mish with new coordinate = 0
 ![화면 캡처 2022-08-10 135700](https://user-images.githubusercontent.com/88171531/183821234-782c7d9a-fe70-4bf3-93f7-1feee16ee7f9.png)
-
+###### stopped
 ## Darknet ROS _ ZED2 node
 ![topic](https://user-images.githubusercontent.com/88171531/183785263-3f2ea8dc-a3db-4c4a-becf-0d84903ec886.png)
 ```
