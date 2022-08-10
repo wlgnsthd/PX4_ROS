@@ -17,3 +17,7 @@ roslaunch zed_wrapper zed2.launch
 roslaunch darknet_ros yolo_v4.launch
 rostopic echo /darknet_ros/bounding_boxes
 ```
+## darknet_ros_zed 소스코드 사용
+https://github.com/leoll2/darknet_ros_zed
+##### error (maybe opencv version problem)
+![스크린샷, 2022-08-10 15-46-40](https://user-images.githubusercontent.com/88171531/183835111-18ffeabe-1a1f-4aa2-8eb9-5fc4e186b076.png)
