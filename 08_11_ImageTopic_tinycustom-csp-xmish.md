@@ -12,3 +12,7 @@ if (viewImage_) {
 ```
 ##### 다시 catkin_make
 ![스크린샷, 2022-08-11 09-17-59](https://user-images.githubusercontent.com/88171531/184044565-1703da95-4653-49f6-98d1-60f001f9b244.png)
+
+## scaled yolov4 model ( tiny custom, csp, x-mish ) 
+##### 활성화함수 mish를 어떻게 다루는 지에 따라 달라짐
+### 학습시 csp와  xmish는 Loss가 줄어들지 않는 경향을 보임, 더 많이 학습을 
