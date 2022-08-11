@@ -28,7 +28,10 @@ catkin_make --only-pkg-with-deps darknet_ros_msgs
 catkin_make -DCATKIN_WHITELIST_PACKAGES=""
 ```
 ##### catkin_make 완료
-##### darknet_3d.yaml point cloud topic && darknet_ros_3d.launch 파일 camera, yolo yaml 변경
+##### darknet_3d.yaml point cloud topic && darknet_ros_3d.launch 파일 camera, camera_link-> base_link , yolo yaml 변경
+![스크린샷, 2022-08-11 17-53-16](https://user-images.githubusercontent.com/88171531/184098304-aa82ab84-d7f7-440f-8fd6-248b6d2d1a24.png)
+![스크린샷, 2022-08-11 16-39-38](https://user-images.githubusercontent.com/88171531/184098316-02b854ce-4dcb-4350-871d-fff93f23a05c.png)
+
 
 ## scaled yolov4 model ( tiny custom, csp, x-mish ) 
 ##### 활성화함수 mish를 어떻게 다루는 지에 따라 달라짐
