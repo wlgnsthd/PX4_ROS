@@ -10,3 +10,4 @@ if (viewImage_) {
     generate_image(buff_[(buffIndex_ + 1)%3], ipl_);
 }
 ```
+##### 다시 catkin_make
