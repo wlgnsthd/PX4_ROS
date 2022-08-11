@@ -27,6 +27,9 @@ catkin_make --only-pkg-with-deps darknet_ros_msgs
 ## 모든 것 catkin_make
 catkin_make -DCATKIN_WHITELIST_PACKAGES=""
 ```
+##### catkin_make 완료
+##### darknet_3d.yaml point cloud topic && darknet_ros_3d.launch 파일 camera, yolo yaml 변경
+
 ## scaled yolov4 model ( tiny custom, csp, x-mish ) 
 ##### 활성화함수 mish를 어떻게 다루는 지에 따라 달라짐
 ### 학습시 csp와  xmish는 Loss가 줄어들지 않는 경향을 보임, 더 많이 학습해야할듯 24000 bathces 
