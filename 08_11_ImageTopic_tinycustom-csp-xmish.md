@@ -15,4 +15,6 @@ if (viewImage_) {
 
 ## scaled yolov4 model ( tiny custom, csp, x-mish ) 
 ##### 활성화함수 mish를 어떻게 다루는 지에 따라 달라짐
-### 학습시 csp와  xmish는 Loss가 줄어들지 않는 경향을 보임, 더 많이 학습을 
+### 학습시 csp와  xmish는 Loss가 줄어들지 않는 경향을 보임, 더 많이 학습해야할듯
+![tiny-custom_csp_x-mish_8000](https://user-images.githubusercontent.com/88171531/184072095-20d685cf-70ea-4942-8bbc-6cc9ff438cab.png)
+![tiny-custom_csp_x-mish_8000_graph](https://user-images.githubusercontent.com/88171531/184072097-2d15b343-e9f9-4fd0-8afd-189c9ac590a3.png)
