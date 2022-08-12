@@ -35,3 +35,7 @@ https://pytorch.org/blog/pytorch-1.6-now-includes-stochastic-weight-averaging/
 ![화면 캡처 2022-08-12 135550](https://user-images.githubusercontent.com/88171531/184287777-dc742741-d736-4103-9a31-967f124f2b87.png)
 ![coordinate](https://user-images.githubusercontent.com/88171531/184287896-5be328e6-60e2-44c2-a919-6636068f660b.png)
 
+
+
+https://user-images.githubusercontent.com/88171531/184297644-fb90468d-6403-4dae-95f9-ba06bff0fd0f.mp4
+
