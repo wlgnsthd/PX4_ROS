@@ -30,8 +30,8 @@ https://pytorch.org/blog/pytorch-1.6-now-includes-stochastic-weight-averaging/
 
 ##### 너무 가까우면 거리 계산값이 너무 커짐
 ### Topic Analysis
-<img>
+
 ![화면 캡처 2022-08-12 135810](https://user-images.githubusercontent.com/88171531/184287739-6fdcb0fd-397b-41ce-9cde-453160a609a9.png)
 ![화면 캡처 2022-08-12 135550](https://user-images.githubusercontent.com/88171531/184287777-dc742741-d736-4103-9a31-967f124f2b87.png)
+![coordinate](https://user-images.githubusercontent.com/88171531/184287896-5be328e6-60e2-44c2-a919-6636068f660b.png)
 
-</img>
