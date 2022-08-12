@@ -23,10 +23,10 @@ https://pytorch.org/blog/pytorch-1.6-now-includes-stochastic-weight-averaging/
 ##### Loss가 줄어들지 않고 mAP만 커지는 경우 이러한 오류 발생 (예상)
 
 ## darknet_ros_3d
-#### bounding_boxes topic
+### bounding_boxes topic
 ![스크린샷, 2022-08-12 11-02-36](https://user-images.githubusercontent.com/88171531/184286166-d33f6dfb-55f6-4b43-ad84-091208b6566c.png)
 #### inf나 nan떠서 생기는 문제 
 ![스크린샷, 2022-08-12 11-20-57](https://user-images.githubusercontent.com/88171531/184286300-b47131d2-5e2d-4b73-86cd-57001ab067e4.png)
 
 ##### 너무 가까우면 거리 계산값이 너무 커짐
-#### Topic Analysis
+### Topic Analysis
