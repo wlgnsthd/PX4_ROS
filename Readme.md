@@ -26,4 +26,3 @@ sudo -H pip3 install -U jetson-stats
 jtop
 ```
 
-### Notion : https://bit.ly/jetetri OR https://bit.ly/etrisjh
