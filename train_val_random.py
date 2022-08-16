@@ -5,8 +5,6 @@ import numpy as np
 
 # put your own path here
 dataset_path = './'
-abs_path = os.getcwd()
-
 # Percentage of images to be used for the validation set
 percentage_val = 20;
 
@@ -28,12 +26,10 @@ for pathAndFilename in glob.iglob(os.path.join(dataset_path, "*.jpg")):
 
     if counter == index_val+1:#valid path
         counter = 1
-        file_val.write(abs_path+ '/'  + title + '.jpg' + "\n")
         shutil.copy(dataset_path  + title + '.jpg', dataset_path + valid_new_name  )
         shutil.copy(dataset_path  + title + '.txt', dataset_path + valid_new_name  )
 
     else:# train path
-        file_train.write(abs_path+ '/'+ title + '.jpg' + "\n")
         shutil.copy(dataset_path  + title + '.jpg', dataset_path + train_new_name  )
         shutil.copy(dataset_path  + title + '.txt', dataset_path + train_new_name  )
         counter = counter + 1
