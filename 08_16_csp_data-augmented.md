@@ -1,6 +1,10 @@
 ## csp weight
 ##### 64000 max batch 늘림
 ![image](https://user-images.githubusercontent.com/88171531/184757662-206330a2-2720-45ec-a963-84352d7c5f99.png)
+##### result
+![image](https://user-images.githubusercontent.com/88171531/184828726-c092cbd6-a1bf-45ef-8d50-aa02c906b136.png)
+![image](https://user-images.githubusercontent.com/88171531/184828802-f6d672d8-13b5-434c-885d-0d7b850f66b9.png)
+
 ## image augmentation
 ##### opencv를 통해 augmentation 가능, 라벨 파일도 동시에 수행되어야함
 https://github.com/aleju/imgaug
