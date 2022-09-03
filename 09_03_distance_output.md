@@ -13,3 +13,4 @@
 rostopic echo /darknet_ros_3d/bounding_boxes
 
 ```
+![Screenshot from 2022-09-03 21-34-08](https://user-images.githubusercontent.com/88171531/188270562-20a0bc71-79bb-45da-810f-dda723be1744.png)
